@@ -45,7 +45,7 @@ class AddUser extends StatelessWidget {
             'age': age // 42
           })
           .then((value) => print("User Added"))
-          .catchError((error) => print("Failed to add user: $error"));
+          .catchError((error) => print("Fail to add user: $error"));
     }
 
     return FlatButton(
