@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Notes'),
         ),
-     
       ),
     );
   }
@@ -28,8 +27,9 @@ class AddUser extends StatelessWidget {
   final String fullName;
   final String company;
   final int age;
+  final int id;
 
-  AddUser(this.fullName, this.company, this.age);
+  AddUser(this.fullName, this.company, this.age, this.id);
 
   @override
   Widget build(BuildContext context) {
